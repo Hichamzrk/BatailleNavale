@@ -1,6 +1,6 @@
 # BatailleNavale
 
-Le coeurs de l'algorithme se trouve dans `SpaceDefense/Algo.php` à executer dans une terminal.
+Le coeur de l'algorithme se trouve dans `SpaceDefense/Algo.php` à executer dans une terminal.
 
 What is the complexity of your algorithm (in big O notation)?
 
