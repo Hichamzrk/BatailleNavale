@@ -1,10 +1,13 @@
 <?php
 
-namespace App\Models;
+namespace App\Vessels\OffensiveVessel;
 
-class BattleshipsVessel{
+use App\Vessels\AbstractVessel;
+
+class BattleshipsVessel extends AbstractVessel{
     
+   const TYPE = "Offensive";
    const CANNONS = 24;
-   protected $position;
-
+   protected $x;
+   protected $y;
 }

@@ -1,9 +1,13 @@
 <?php
 
-namespace App\Models;
+namespace App\Vessels\OffensiveVessel;
 
-class CruisersVessel{
+use App\Vessels\AbstractVessel;
+
+class CruisersVessel extends AbstractVessel{
     
+   const TYPE = "Offensive";
    const CANNONS = 6;
-   protected $position;
+   protected $x;
+   protected $y;
 }
