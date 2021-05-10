@@ -1,8 +1,12 @@
 <?php
 
-namespace App\Models;
+namespace App\Vessels\SupportVessel;
 
-class CargoVessel{
+use App\Vessels\AbstractVessel;
+
+class CargoVessel extends AbstractVessel{
     
-   protected $position;
+   const TYPE = "Assistance";
+   protected $x;
+   protected $y;
 }

@@ -1,9 +1,12 @@
 <?php
 
-namespace App\Models;
+namespace App\Vessels\SupportVessel;
 
-class RefuelingVessel{
-    
-    protected $position;
+use App\Vessels\AbstractVessel;
 
+class RefuelingVessel extends AbstractVessel{
+   
+    const TYPE = "Assistance";
+    protected $x;
+    protected $y;
 }
