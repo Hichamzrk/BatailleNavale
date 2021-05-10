@@ -55,7 +55,7 @@ namespace App\SpaceDefense;
             'value' => $value
         ];
 
-        //echo 'Offensive Vessel Type -> '.$vesselType.'('.$xPosition.', '.$yPosition.')'."\n";
+        echo 'Offensive Vessel Type -> '.$vesselType.'('.$xPosition.', '.$yPosition.')'."\n";
     }
 
     foreach ($vesselSupport as $key => $vesselSupp) {
