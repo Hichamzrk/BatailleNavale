@@ -1,0 +1,9 @@
+{
+    "name": "hicham.z/BatailleNavalle",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "App\\": "./"
+        }
+    }
+}
